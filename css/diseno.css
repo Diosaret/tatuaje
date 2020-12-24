@@ -1,0 +1,263 @@
+*{
+
+margin: 0;
+padding: 0;
+
+}
+.diseno{
+    margin-top: 50px;
+}
+.center{
+
+	text-align: center;
+}
+.main-box{
+
+display: inline-block;   
+	height: 290px;
+    margin-top: 50px;
+
+	vertical-align: top;
+	width: 100%;
+}
+
+
+.panela{
+display: inline-block;
+position: absolute;
+padding: 30px;
+width: 0%;
+top: 20px;
+left: 10px;
+
+-webkit-perspective: 900px;
+        perspective: 900px;
+}
+
+.panela .front{
+
+position: absolute;
+top: 310px;
+left: 65px;
+
+-webkit-transform: rotateX(0) rotateY(0);
+        transform: rotateX(0) rotateY(0);
+
+
+-webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+
+-webkit-backface-visibility: hidden;        
+        backface-visibility: hidden;
+
+
+-webkit-transition: all 1.5s ease-in-out;
+        transition: all 1.5s ease-in-out;
+
+}
+
+.panela.flip .front{
+	-webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+
+}
+
+
+.panela .back{
+
+position: absolute;
+top: 310px;
+left: 65px;
+
+-webkit-transform: rotateY(-180deg);
+        transform: rotateY(-180deg);
+
+
+-webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+
+-webkit-backface-visibility: hidden;        
+        backface-visibility: hidden;
+
+
+-webkit-transition: all 1.5s ease-in-out;
+        transition: all 1.5s ease-in-out;
+
+}
+
+.panela.flip .back{
+
+
+-webkit-transform: rotate(0) rotateY(0);
+        transform: rotate(0) rotateY(0);
+}
+
+
+.panela .pad{
+
+	padding: 0px 5px;
+}
+
+
+.front img{
+
+
+	width: 250px;
+height: 200px;
+
+}
+.back img{
+
+
+	width: 250px;
+height: 200px;
+
+}
+
+
+
+
+
+.panela1{
+
+display:inline-block;
+position: absolute;
+padding: 30px;
+width: 0%;
+top: 20px;
+left: 10px;
+
+-webkit-perspective: 900px;
+        perspective: 900px;
+}
+
+.panela1 .front{
+
+position: absolute;
+top: 310px;
+left: 365px;
+
+-webkit-transform: rotateX(0) rotateY(0);
+        transform: rotateX(0) rotateY(0);
+
+
+-webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+
+-webkit-backface-visibility: hidden;        
+        backface-visibility: hidden;
+
+
+-webkit-transition: all 1.5s ease-in-out;
+        transition: all 1.5s ease-in-out;
+
+}
+
+.panela1.flip .front{
+	-webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+
+}
+
+
+.panela1 .back{
+
+position: absolute;
+top: 310px;
+left: 365px;
+
+-webkit-transform: rotateY(-180deg);
+        transform: rotateY(-180deg);
+
+
+-webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+
+-webkit-backface-visibility: hidden;        
+        backface-visibility: hidden;
+
+
+-webkit-transition: all 1.5s ease-in-out;
+        transition: all 1.5s ease-in-out;
+
+}
+
+.panela1.flip .back{
+
+
+-webkit-transform: rotate(0) rotateY(0);
+        transform: rotate(0) rotateY(0);
+}
+
+
+
+.panela2{
+
+display: inline-block;
+position: absolute;
+padding: 30px;
+width: 0%;
+top: 20px;
+left: 10px;
+
+-webkit-perspective: 900px;
+        perspective: 900px;
+}
+
+.panela2 .front{
+
+position: absolute;
+top: 310px;
+left: 665px;
+
+-webkit-transform: rotateX(0) rotateY(0);
+        transform: rotateX(0) rotateY(0);
+
+
+-webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+
+-webkit-backface-visibility: hidden;        
+        backface-visibility: hidden;
+
+
+-webkit-transition: all 1.5s ease-in-out;
+        transition: all 1.5s ease-in-out;
+
+}
+
+.panela2.flip .front{
+	-webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+
+}
+
+
+.panela2 .back{
+
+position: absolute;
+top: 310px;
+left: 665px;
+
+-webkit-transform: rotateY(-180deg);
+        transform: rotateY(-180deg);
+
+
+-webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+
+-webkit-backface-visibility: hidden;        
+        backface-visibility: hidden;
+
+
+-webkit-transition: all 1.5s ease-in-out;
+        transition: all 1.5s ease-in-out;
+
+}
+
+.panela2.flip .back{
+
+
+-webkit-transform: rotate(0) rotateY(0);
+        transform: rotate(0) rotateY(0);
+}
